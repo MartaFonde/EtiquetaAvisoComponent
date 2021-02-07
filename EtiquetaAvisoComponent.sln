@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtiquetaAvisoComponent", "EtiquetaAvisoComponent\EtiquetaAvisoComponent.csproj", "{9C0F25E1-7F91-4F2D-84F3-788BB1B2B061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormTest", "FormTest\FormTest.csproj", "{44B7B2A7-F21F-4559-B6F0-895CA747FD4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0F25E1-7F91-4F2D-84F3-788BB1B2B061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0F25E1-7F91-4F2D-84F3-788BB1B2B061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0F25E1-7F91-4F2D-84F3-788BB1B2B061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0F25E1-7F91-4F2D-84F3-788BB1B2B061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B7B2A7-F21F-4559-B6F0-895CA747FD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B7B2A7-F21F-4559-B6F0-895CA747FD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B7B2A7-F21F-4559-B6F0-895CA747FD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B7B2A7-F21F-4559-B6F0-895CA747FD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A199507-AAE2-4209-9DCF-FE1761944CE0}
+	EndGlobalSection
+EndGlobal
