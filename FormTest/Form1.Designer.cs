@@ -29,20 +29,20 @@ namespace FormTest
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.etiquetaAviso1 = new EtiquetaAvisoComponent.EtiquetaAviso();
             this.SuspendLayout();
             // 
             // etiquetaAviso1
             // 
-            this.etiquetaAviso1.ColorFinal = System.Drawing.Color.Silver;
-            this.etiquetaAviso1.ColorInicial = System.Drawing.Color.LightCoral;
+            this.etiquetaAviso1.ColorFinal = System.Drawing.Color.SkyBlue;
+            this.etiquetaAviso1.ColorInicial = System.Drawing.Color.LightCyan;
+            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetaAviso1.Gradiente = true;
-            this.etiquetaAviso1.ImagenMarca = ((System.Drawing.Bitmap)(resources.GetObject("etiquetaAviso1.ImagenMarca")));
+            this.etiquetaAviso1.ImagenMarca = null;
             this.etiquetaAviso1.Location = new System.Drawing.Point(300, 100);
-            this.etiquetaAviso1.Marca = EtiquetaAvisoComponent.eMarca.Cruz;
+            this.etiquetaAviso1.Marca = EtiquetaAvisoComponent.eMarca.ImagenDeForma;
             this.etiquetaAviso1.Name = "etiquetaAviso1";
-            this.etiquetaAviso1.Size = new System.Drawing.Size(101, 17);
+            this.etiquetaAviso1.Size = new System.Drawing.Size(262, 46);
             this.etiquetaAviso1.TabIndex = 0;
             this.etiquetaAviso1.Text = "etiquetaAviso1";
             this.etiquetaAviso1.ClickEnMarca += new System.EventHandler(this.etiquetaAviso1_ClickEnMarca);
@@ -55,6 +55,7 @@ namespace FormTest
             this.Controls.Add(this.etiquetaAviso1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

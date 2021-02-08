@@ -115,7 +115,7 @@ namespace EtiquetaAvisoComponent
             {
                 try
                 {
-                    Bitmap b = new Bitmap(value);
+                    //Bitmap b = new Bitmap(value);
                     imagenMarca = value;
                     Refresh();
                 }
@@ -211,7 +211,7 @@ namespace EtiquetaAvisoComponent
         [Description("Se lanza cuando se hace click en marca")]
         public event System.EventHandler ClickEnMarca;
 
-        protected override void OnClick(EventArgs e)
+        protected override void OnClick(EventArgs e)            //MouseClick xa nos da as coordenadas
         {
             base.OnClick(e);
             Point p = new Point(this.PointToClient(Cursor.Position).X, this.PointToClient(Cursor.Position).Y);

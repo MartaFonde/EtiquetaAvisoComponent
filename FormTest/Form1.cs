@@ -21,5 +21,10 @@ namespace FormTest
         {
             MessageBox.Show("click en marca");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            etiquetaAviso1.ImagenMarca = null;
+        }
     }
 }
